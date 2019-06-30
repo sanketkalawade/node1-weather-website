@@ -11,7 +11,7 @@ formElement.addEventListener('submit',(event)=>{
     const location = searchInput.value;
     messageOne.textContent = "Loading...!"
     messageTwo.textContent = "";
-    fetch('http://localhost:3000/weather?address='+location).then(Response =>{
+    fetch('/weather?address='+location).then(Response =>{
     Response.json().then(parsedData=>{
         if (parsedData.error) {
             messageOne.textContent = parsedData.error;
