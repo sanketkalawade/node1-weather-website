@@ -8,8 +8,10 @@
     <body>
         <div class="main-content">
             {{>header}}
-            <img class="profilepic" src="imgs/profilepic.jpeg" alt="skk pic">
-            <p>{{quote}}</p>
+            <div>
+                <img class="profilepic" src="imgs/profilepic.jpeg" alt="skk pic">
+                <p id="rightToImage">This site was created by {{name}}.It uses data from mapbox.com and darksky.net!</p>
+            </div>
         </div>
        {{>footer}}
     </body>

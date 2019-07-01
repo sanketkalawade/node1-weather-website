@@ -36,7 +36,13 @@ header a{
     margin-right: 16px;
 }
 .profilepic{
-    width: 250px;
+    width: 150px;
+    float: left;
+}
+#rightToImage{
+    float: left;
+    margin: 0 0 0 20px;
+    width: 400px
 }
 
 input{
